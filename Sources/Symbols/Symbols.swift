@@ -1603,7 +1603,7 @@ import SwiftUI
 extension Image {
     
     @available(iOS 13.0, *)
-    convenience init?(symbol: Symbol) {
+    init?(symbol: Symbol) {
         self.init(systemName: symbol.rawValue)
     }
 }
