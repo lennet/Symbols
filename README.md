@@ -13,7 +13,7 @@ Add as a dependency via Swift Package Manager or add the Symbols.swift file to y
 ```swift
 import Symbols
 
-var star = Image(symbol: .star) 
+Image(symbol: .star) 
 ```
 
 ### UIKit
