@@ -1,3 +1,3 @@
 # Symbols
 
-A description of this package.
+A typesafe wrapper around the new system symbols
