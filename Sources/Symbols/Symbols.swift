@@ -1,5 +1,5 @@
 
-enum Symbol : String {
+public enum Symbol : String {
     case circleLefthalfFill = "circle.lefthalf.fill"
     case circleRighthalfFill = "circle.righthalf.fill"
     case dollarsignCircle = "dollarsign.circle"
@@ -1589,7 +1589,7 @@ enum Symbol : String {
 #if canImport(UIKit)
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     @available(iOS 13.0, *)
     convenience init?(symbol: Symbol) {
         self.init(systemName: symbol.rawValue)
@@ -1600,7 +1600,7 @@ extension UIImage {
 #if canImport(SwiftUI)
 import SwiftUI
 
-extension Image {
+public extension Image {
     
     @available(iOS 13.0, *)
     init?(symbol: Symbol) {
